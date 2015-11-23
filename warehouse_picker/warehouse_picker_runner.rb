@@ -11,8 +11,8 @@ require_relative('./warehouse_hash_functions')
   puts "nail filer is found at : #{found_item}"
 
 
-  multi_bay = ["b5","b10","b6"]
-  found_items = find_multiple_by_bay(multi_bay)
+   #need to convert to array of symbols first !!!
+  found_items = find_multiple_by_bay("b5", "b10","b6")
   puts "Products are: #{found_items}"
 
   multi_product = ["shoe lace", "rusty_nail", "leg warmers"]

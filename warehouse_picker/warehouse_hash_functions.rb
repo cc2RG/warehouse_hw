@@ -14,10 +14,16 @@ def find_by_name(pd)
 return found_item
 end   
 
-def find_multiple_by_bay(*bay)
 
+def find_multiple_by_bay(*b_arr)
+  found = b_arr.each {|bay| WHOUSE.key(b_arr) }
+  return found
+  
 end
 
-
+def find_multiple_by_name(pds)
+  
+  return 
+end  
 
 
